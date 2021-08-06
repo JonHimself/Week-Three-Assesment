@@ -3,7 +3,7 @@ body {
   background-size: cover;
   margin: 1rem;
   padding: 1rem;
-  max-width: 500px;
+  max-width: 800px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
@@ -194,4 +194,26 @@ header {
 
 .submit {
   margin: 0 0 0 160px;
+}
+
+.house {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.picTitle {
+  font-size: 64px;
+  flex-basis: 100%;
+  align-self: center;
+  text-align: center;
+}
+
+#clicky {
+  font-size: 32px;
+}
+
+#link {
+  font-size: 24px;
 }
