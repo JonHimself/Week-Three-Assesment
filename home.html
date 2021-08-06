@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <section>
+        <h1 class="fonts">Hello World</h1>
+        <img id="cat" src="Cat.jpg" />
+        <p class="fonts">Welcome! Hover over the image a compliment!</p>
+        <ul>
+          <li class="fonts compliment">
+            Turn off your monitor, look at the dime piece in the reflection.
+          </li>
+          <li class="fonts compliment">I'm proud of you, son.</li>
+          <li class="fonts compliment">You have a face for radio!</li>
+        </ul>
+      </section>
+
+      <form class="fonts" id="contact">
+        <fieldset>
+          <h2 class="fonts">Contact Us</h2>
+
+          How did you hear about us?
+          <input
+            class="input1"
+            name="outreach"
+            type="radio"
+            id="google"
+            value="google"
+          />
+          <label for="google">Google</label>
+          <input
+            class="input1"
+            name="outreach"
+            type="radio"
+            id="friend"
+            vlaue="friend"
+          />
+          <label for="friend">A friend</label>
+          <input
+            class="input1"
+            name="outreach"
+            type="radio"
+            id="other"
+            value="other"
+          />
+          <label for="other">Other..</label>
+          <br />
+          <br />
+          Name:
+          <input class="input1" type="text" />
+          <br />
+          <br />
+          Message:
+          <input class="input1" type="textarea" />
+          <br />
+          <br />
+          <input type="submit" />
+        </fieldset>
+      </form>
+    </content>
+    <script src="about.js"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+body {
+  background-image: url("https://media.giphy.com/media/l2JJDdD7cv4xdGGis/source.gif");
+  background-size: cover;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skills {
+  align-self: flex-start;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  align-self: center;
+}
+
+ol {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 33.33333%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fonts {
+  color: white;
+  text-shadow: 0.5px 0.5px 2px rgb(255, 255, 255);
+}
+
+nav {
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  border-image-slice: 1;
+}
+
+fieldset {
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  border-image-slice: 1;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    rgb(149, 0, 255),
+    rgb(0, 225, 255),
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a:hover {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    rgb(149, 0, 255),
+    rgb(0, 225, 255),
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.input1 {
+  display: inline-block;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+.btns {
+  border-radius: 35%;
+  height: 35px;
+  background-color: yellow;
+  color: blue;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btngrp {
+  display: flex;
+  justify-content: space-evenly;
+}
