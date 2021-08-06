@@ -1,9 +1,8 @@
 console.log("hello world");
 
 const compliment = () => {
-	for(let i = Math.floor(Math.random() * 3); i < complimentArr.length; i++){
+	for(let i = Math.floor(Math.random() * 3); i <= complimentArr.length; i++){
 		alert(complimentArr[i].textContent);
-		console.log(i)
 		return
 }
 }

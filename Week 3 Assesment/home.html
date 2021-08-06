@@ -2,6 +2,12 @@
 <html>
   <head>
     <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -15,10 +21,12 @@
 
     <content>
       <section>
-        <h1 class="fonts">Hello World</h1>
+        <h1 class="fonts titles">Hello World</h1>
         <img id="cat" src="Cat.jpg" />
-        <p class="fonts">Welcome! Hover over the image for a compliment!</p>
         <ul>
+          <h3 class="fonts titles2">
+            Welc0m3! Hover over m3 for a complim3nt!
+          </h3>
           <li class="fonts compliment">
             Turn off your monitor, look at the dime piece in the reflection.
           </li>
@@ -26,12 +34,15 @@
           <li class="fonts compliment">You have a face for radio!</li>
         </ul>
       </section>
-
+      <br />
+      <br />
+      <br />
       <form class="fonts" id="contact">
-        <fieldset>
-          <h2 class="fonts">Contact Us</h2>
+        <fieldset class="fieldset">
+          <h2 class="fonts titles2 contact">Contact Us</h2>
 
-          How did you hear about us?
+          How did you hear about us?????
+          <br />
           <input
             class="input1"
             name="outreach"
@@ -55,18 +66,24 @@
             id="other"
             value="other"
           />
-          <label for="other">Other..</label>
+          <label for="other">Other</label>
           <br />
           <br />
-          Name:
-          <input class="input1" type="text" />
+          <label for="name">Name:</label>
+          <input class="input1" type="text" id="name" />
           <br />
           <br />
           Message:
-          <input class="input1" type="textarea" />
+          <br />
+          <textarea
+            class="input1"
+            type="textarea"
+            rows="10"
+            cols="50"
+          ></textarea>
           <br />
           <br />
-          <input type="submit" />
+          <input type="submit" class="btns submit" />
         </fieldset>
       </form>
     </content>
